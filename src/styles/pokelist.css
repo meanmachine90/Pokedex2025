@@ -1,0 +1,19 @@
+section {
+    @apply py-4 px-4 mx-auto max-w-screen lg:py-4 lg:px-6;
+}
+
+.section .wrapper {
+    @apply max-w-screen justify-items-center text-gray-500 sm:text-lg flex justify-between gap-2 lg:gap-4 grid grid-cols-1 md:grid-cols-3;
+}
+
+.section .wrapper h2 {
+    @apply mb-4 text-4xl tracking-tight font-bold text-gray-900;
+}
+
+.section .wrapper p .light {
+    @apply mb-4 font-light;
+}
+
+.section .wrapper p .medium {
+    @apply mb-4 font-medium;
+}

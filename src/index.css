@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import "./styles/nav.css";
+@import "./styles/pokelist.css";
+@import "./styles/card.css";
+@import "./styles/pager.css";
+@import "./styles/statrow.css";
+@import "./styles/detail.css";
+
+body {
+  height: 100%;
+  min-height: 100vh;
+  @apply bg-white
+}
+
+#root {
+  @apply flex flex-col min-h-screen;
+}

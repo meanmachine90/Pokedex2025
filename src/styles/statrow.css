@@ -1,0 +1,31 @@
+
+.stats_tr{
+    @apply bg-white border-b border-gray-200;
+}
+
+.stats_tr th{
+    @apply px-6 py-4 font-medium text-gray-900;
+}
+
+.stats_tr td{
+    @apply px-6 py-4 ;
+}
+
+.stats_tr td .barcontainer{
+    @apply w-full bg-gray-200 rounded-full h-2.5 mb-4 w-fit;
+}
+
+.stats_tr td .bar{
+    @apply h-2.5 rounded-full; 
+}
+
+.stats_table{
+    @apply w-full text-sm text-left text-gray-500;
+}
+
+.stats_table thead{
+    @apply text-xs text-gray-700 uppercase bg-gray-50;
+}
+.stats_table th .col{
+    @apply px-6 py-3
+}
